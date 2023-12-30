@@ -1,0 +1,8 @@
+---
+const classNamePrefix = "button"
+const {text, class : className} = Astro.props;
+---
+
+<a class=`${classNamePrefix}` href="/">
+  {text}
+</a>
